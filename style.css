@@ -187,7 +187,7 @@ img[alt="avatar"] {
 
 .projectsContainer {
   display: grid;
-  grid-template: 150px / repeat(auto-fill, minmax(350px, 1fr));
+  grid-template: 350px / repeat(auto-fill, minmax(350px, 1fr));
 }
 
 .projectsContainer:first-child {
