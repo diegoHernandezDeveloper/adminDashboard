@@ -201,6 +201,7 @@ img[alt="avatar"] {
   background-color: white;
   box-shadow: 0 0 10px gray;
   border-radius: 10px;
+  overflow: scroll;
 }
 
 .project img:not([alt="avatar"]) {
