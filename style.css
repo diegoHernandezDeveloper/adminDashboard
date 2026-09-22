@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 2rem;
+}
+
 :root {
   --main-color: #1992d4;
   --alt-color: #e2e8f0;
