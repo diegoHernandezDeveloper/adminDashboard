@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 2rem;
-}
-
 :root {
   --main-color: #1992d4;
   --alt-color: #e2e8f0;
@@ -49,7 +45,6 @@ nav > div:hover {
 nav > div {
   display: flex;
   align-items: center;
-  font-size: 24px;
 }
 
 .user div {
@@ -71,7 +66,6 @@ nav img {
 
 nav li {
   margin-bottom: 10px;
-  font-size: 12px;
 }
 
 li {
@@ -120,7 +114,6 @@ img[alt="avatar"] {
   gap: clamp(0.2vw, 1vw, 2vw);
   justify-content: start;
   align-items: end;
-  font-size: 10px;
 }
 
 .profileUpper {
@@ -158,10 +151,6 @@ img[alt="avatar"] {
   margin-right: 10px;
 }
 
-.profileLower span {
-  font-size: 12px;
-}
-
 .profileLower ul {
   justify-content: end;
   width: 50%;
@@ -172,7 +161,6 @@ img[alt="avatar"] {
   color: white;
   padding: 3px 15px;
   font-weight: 700;
-  font-size: clamp(0.4rem, 5vw, 0.7rem);
   border: none;
   border-radius: 20px;
   transition: all 0.1s ease-in-out;
@@ -192,7 +180,6 @@ img[alt="avatar"] {
 
 .content h4 {
   padding: 12px 0 0 12px;
-  font-size: 12px;
 }
 .content ul {
   display: flex;
@@ -226,13 +213,11 @@ img[alt="avatar"] {
 }
 
 .content h5 {
-  font-size: 12px;
   margin-bottom: 5px;
 }
 
 .content p {
   font-weight: 100;
-  font-size: 12px;
   color: gray;
 }
 
@@ -267,8 +252,4 @@ img[alt="avatar"] {
   width: 30px;
   border-radius: 50%;
   margin-right: 5px;
-}
-
-.trendingContainer span {
-  font-size: 12px;
 }
